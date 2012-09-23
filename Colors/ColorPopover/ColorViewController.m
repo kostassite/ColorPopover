@@ -20,7 +20,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.contentSizeForViewInPopover = CGSizeMake(240,250);
+        self.contentSizeForViewInPopover = CGSizeMake(240,320);
     }
     return self;
 }
@@ -107,7 +107,7 @@
 
 -(void)loadColorButtons{
     
-    UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 240,250)];
+    UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 240,320)];
     
     scroll.contentSize = CGSizeMake(200, 320);
     [self.view addSubview:scroll];
